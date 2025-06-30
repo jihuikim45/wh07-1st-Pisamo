@@ -66,12 +66,12 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 ### 프로젝트 기획서 다이어그램
 <details><summary>서비스 흐름도
 </summary>
-<img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EA%B0%90%EC%A0%95%EB%B6%84%EC%84%9D%20AI%20%EC%B1%97%EB%B4%87%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%ED%9D%90%EB%A6%84%EB%8F%84.jpg" />
+<img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EC%B8%84%EB%9F%AC%EC%8A%A4%20%EC%9E%90%EB%A3%8C%EB%AA%A8%EC%9D%8C/%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B5%AC%EC%84%B1%EB%8F%84.jpg" />
   </details>
 
   <details><summary>감정분석 AI 챗봇 시스템 흐름도
 </summary>
-<img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EA%B0%90%EC%A0%95%EB%B6%84%EC%84%9D%20AI%20%EC%B1%97%EB%B4%87%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%ED%9D%90%EB%A6%84%EB%8F%84.jpg" />
+<img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EC%B8%84%EB%9F%AC%EC%8A%A4%20%EC%9E%90%EB%A3%8C%EB%AA%A8%EC%9D%8C/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%ED%9D%90%EB%A6%84%EB%8F%84%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.jpg" />
   </details>
 
   <details><summary>UI
@@ -88,65 +88,35 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 
 # 작업 분할 구조 (WBS)
 
-## 1. 단계별 작업 구성
-### 1. 기획
-1.1. 문제 정의  
-1.2. 데이터 요구사항 정의  
+ <img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EC%B8%84%EB%9F%AC%EC%8A%A4%20%EC%9E%90%EB%A3%8C%EB%AA%A8%EC%9D%8C/WBS_6.png">
 
-### 2. 데이터 수집 및 준비
-2.1. 데이터 소스 조사  
-2.2. 데이터 수집 및 저장  
-2.3. 데이터 전처리  
-
-### 3. 데이터 분석 및 모델링
-3.1. 데이터 탐색 및 시각화  
-3.2. 모델 선택 및 학습  
-3.3. 성능 평가  
-
-### 4. 결과 도출 및 보고
-4.1. 결과 요약  
-4.2. 보고서 작성  
-4.3. 최종 발표
+<details><summary>WBS
+</summary>
+ 
+  [WBS] (https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%ED%94%BC%EC%82%AC%EB%AA%A8%20WBS.xlsx)
+</details>
 
   ------------------------------
 
-# 요구사항 정의서
+# 요구사항 정의
 
-## 1. 기능 요구사항
-- [ ] 데이터 수집 기능: [수집 대상 및 방식]
-- [ ] 데이터 전처리 기능: [결측치 처리, 이상치 제거 등]
-- [ ] 분석 기능: [사용할 알고리즘 또는 분석 기법]
-- [ ] 시각화 기능: [대시보드, 차트, 그래프]
-
-## 2. 비기능 요구사항
-- [ ] 시스템 안정성: 데이터 처리 시 오류 발생 최소화
-- [ ] 성능: 데이터 처리 및 분석 시간 최소화
-- [ ] 확장성: 새로운 데이터 추가 및 확장 가능
+<details><summary>요구사항 정의서
+</summary>
+  
+[요구사항 정의서.pdf](https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EC%A0%95%EC%9D%98%EC%84%9C.pdf)
+  
+</details>
 
 ----------------------------
 
-# 프로젝트 설계서
+# 프로젝트 발표
 
-## 1. 시스템 아키텍처
-- **구성 요소**:
-  - 데이터 수집 모듈
-  - 데이터 전처리 모듈
-  - 데이터 분석 및 시각화 모듈
-
-## 2. 데이터 설계
-- **데이터 흐름**: 원천 데이터 → 전처리 → 분석 → 결과
-- **주요 데이터 속성**:
-  - 속성 이름: [예: user_id, timestamp, value]
-  - 데이터 유형: [정량, 정성]
-
-## 3. 기술 스택
-- **데이터 수집**: Python, Selenium, API 활용
-- **분석**: Pandas, NumPy, Scikit-learn
-- **시각화**: Matplotlib, Seaborn, Plotly
-
-## 4. 예상 문제 및 해결 방안
-- **문제**: 데이터 불균형  
-  **해결 방안**: SMOTE 기법 활용
+<details><summary>프로젝트 발표
+</summary>
+  
+[프로젝트 발표.pptx](https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EC%B8%84%EB%9F%AC%EC%8A%A4%20%EC%9E%90%EB%A3%8C%EB%AA%A8%EC%9D%8C/%EC%B8%84!%EB%9F%AC%EC%8A%A4%EB%AF%B8_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pptx)
+  
+</details>
 
   
   <br>
